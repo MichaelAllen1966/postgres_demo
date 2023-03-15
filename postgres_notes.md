@@ -68,6 +68,12 @@ From the postgres command prompt:
 `\l` lists databases
 `du` lists users
 
+## Create superuser with password
+
+CREATE USER myuser WITH CREATEDB PASSWORD 'mypassword';
+CREATE USER test WITH CREATEDB PASSWORD 'test123';
+
+
 ## Users and roles
 
 In PostgreSQL, CREATE USER and CREATE ROLE are two different commands that can be used to create a new user or role in the database system.
