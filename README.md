@@ -1,2 +1,3 @@
 # postgres_demo
-Testing use of postfres with Titanic data set
+
+Testing use of postgres with Titanic data set
